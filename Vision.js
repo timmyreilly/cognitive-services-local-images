@@ -1,5 +1,8 @@
+require("dotenv").config();
+
 var fetch = require('node-fetch')
 var fs = require('fs')
+
 
 fs.readFile('./ballmer.jpg', function (err, data) {
   if (err) throw err // Fail if the file can't be read.
